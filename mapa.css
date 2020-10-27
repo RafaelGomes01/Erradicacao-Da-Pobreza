@@ -1,0 +1,3091 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C5C1C0;
+}
+
+#hamburger img{
+    display: none;
+}
+
+.menu-superior{
+    width: 100%;
+    height: 100px;
+    background-color: #0A1612;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+    align-items: center;
+}
+
+.box-image img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-menu1 ul{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu1 li{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu1 a{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu2 ul{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu2 li{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu2 a{
+    text-decoration: none;
+    list-style: none;
+    color: #C5C1C0;
+    font-size: 20px;
+
+    display: inline;
+    padding: 15px;
+}
+
+.box-menu1{
+    margin-left: 240px;
+}
+
+.box-menu1 a{
+    padding-top: 46px;
+    padding-bottom: 38px;
+    
+}
+
+.box-menu1  a:hover{
+    background-color: #F7CE3E;
+    color: black;
+}
+
+.box-menu2 a{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    
+}
+
+.box-menu2  a:hover{
+    background-color: #F7CE3E;
+    color: black;
+}
+
+.menu-part{
+    display: none; 
+}
+
+.box-hamburguer img{
+    display: none;
+}
+
+.menu-lateral-div{
+    display: none;
+}
+
+.espacamento{
+    height: 30px;
+}
+
+
+/* ////////////////////////////////Mapa////////////////////////////// */
+
+.flex-box{
+    border: 2px white solid;
+    background-color: #0A1612;
+    width: 99.7%;
+    height: 30%;
+    color: #F7CE3E;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.div-agrupador p{
+    position: absolute;
+    display: inline;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.div-agrupador{
+    flex: 1 1 500px;
+
+    padding: 5px 10px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px 15px;
+    border: 1px white solid;
+}
+
+
+.divisor{
+    height: 0px;
+}
+
+ .flex-layout{
+    display: flex;
+} 
+
+.flex-layout a{
+    color: white;
+}
+
+.barra-lateral{
+    color: white;
+    height: 740px;
+    width: 17%;
+    background-color: #0A1612;
+    border: 2px white solid;
+    border-top: 0px white solid;
+}
+
+.barra-lateral li{
+    padding: 9px;
+    padding-right: 10px;
+    border: 1px white solid;
+}
+
+.mapa img{
+    width: 95%;    
+}
+
+.mapa{
+    border-bottom: 2px white solid;
+    display: inline-block;
+    background-color: #0A1612;
+}
+
+.number{
+    color: #F7CE3E;
+}
+
+/* ////////////////////////MODAL PAISES///////////////////// */
+/* ///////////////////////////FIXO///////////////////////////*/
+.close{
+    color: #F7CE3E;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+
+.close:hover{
+    opacity: 0.6;
+}
+
+.bandeira{
+    width: 100%;
+    border-bottom: 2px black solid;
+}
+
+.icon-info img{
+    width: 75px;
+    padding-left: 30px;
+    
+}
+
+.icon-info p{
+    font-size: 14px;
+    padding-left: 30px;
+    text-justify: center;
+    font-weight: bold;
+}
+
+.icon-info{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+.text-icon h4{
+    padding: 15px 40px 15px 40px;
+    background-color: #0A1612;
+    color: #F7CE3E;
+    font-size: 16px;
+}
+
+.text-icon{
+    padding-right: 60px;
+    padding-top: 25px;
+}
+/* ///////////////////////FIM FIXO///////////////////////////*/
+
+/* ///////////////////////ARGENTINA/////////////////////////*/
+
+#box1{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box1:target{
+    display: block;
+}
+
+#box1:target ~ .box1{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box1{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box1 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////BOLIVIA/////////////////////////*/
+
+#box2{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box2:target{
+    display: block;
+}
+
+#box2:target ~ .box2{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box2{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box2 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+/* ///////////////////////BRASIL/////////////////////////*/
+
+#box3{
+    width: 100%;
+    height: 100%;
+    top: 400px;
+    left: 600px;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box3:target{
+    display: block;
+}
+
+#box3:target ~ .box3{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box3{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box3 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////CHILE/////////////////////////*/
+
+#box4{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box4:target{
+    display: block;
+}
+
+#box4:target ~ .box4{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box4{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box4 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////COLOMBIA/////////////////////////*/
+
+#box5{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box5:target{
+    display: block;
+}
+
+#box5:target ~ .box5{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box5{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box5 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////Costa-Rica/////////////////////////*/
+
+#box6{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box6:target{
+    display: block;
+}
+
+#box6:target ~ .box6{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box6{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box6 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////CUBA/////////////////////////*/
+
+#box7{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box7:target{
+    display: block;
+}
+
+#box7:target ~ .box7{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box7{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box7 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////EL SALVADOR/////////////////////////*/
+
+#box8{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box8:target{
+    display: block;
+}
+
+#box8:target ~ .box8{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box8{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box8 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+/* ///////////////////////EQUADOR/////////////////////////*/
+
+#box9{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box9:target{
+    display: block;
+}
+
+#box9:target ~ .box9{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box9{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box9 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////GUATEMALA/////////////////////////*/
+
+#box10{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box10:target{
+    display: block;
+}
+
+#box10:target ~ .box10{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box10{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box10 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////HAITI/////////////////////////*/
+
+#box11{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box11:target{
+    display: block;
+}
+
+#box11:target ~ .box11{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box11{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box11 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////HONDURAS/////////////////////////*/
+
+#box12{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box12:target{
+    display: block;
+}
+
+#box12:target ~ .box12{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box12{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box12 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+
+/* ///////////////////////MEXICO/////////////////////////*/
+
+#box13{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box13:target{
+    display: block;
+}
+
+#box13:target ~ .box13{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box13{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box13 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ////////////////////////NICARAGUA////////////////////////*/
+
+#box14{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box14:target{
+    display: block;
+}
+
+#box14:target ~ .box14{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box14{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box14 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////PANAMA/////////////////////////*/
+
+#box15{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box15:target{
+    display: block;
+}
+
+#box15:target ~ .box15{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box15{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box15 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ////////////////////////PARAGUAI////////////////////////*/
+
+#box16{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box16:target{
+    display: block;
+}
+
+#box16:target ~ .box16{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box16{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box16 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////PERU/////////////////////////*/
+
+#box17{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box17:target{
+    display: block;
+}
+
+#box17:target ~ .box17{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box17{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box17 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////REP. DOMINICANA////////////////////*/
+
+#box18{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box18:target{
+    display: block;
+}
+
+#box18:target ~ .box18{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box18{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box18 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////URUGUAI/////////////////////////*/
+
+#box19{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box19:target{
+    display: block;
+}
+
+#box19:target ~ .box19{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box19{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box19 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////VENEZUELA/////////////////////////*/
+
+#box20{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box20:target{
+    display: block;
+}
+
+#box20:target ~ .box20{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box20{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box20 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////EUA/////////////////////////*/
+
+#box21{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box21:target{
+    display: block;
+}
+
+#box21:target ~ .box21{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box21{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box21 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////CANADA/////////////////////////*/
+
+#box22{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box22:target{
+    display: block;
+}
+
+#box22:target ~ .box22{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box22{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box22 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////GROELANDIA////////////////////////*/
+
+#box23{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box23:target{
+    display: block;
+}
+
+#box23:target ~ .box23{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box23{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box23 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SIRIA////////////////////////*/
+
+#box24{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box24:target{
+    display: block;
+}
+
+#box24:target ~ .box24{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box24{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box24 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////ZIMBABWE////////////////////////*/
+
+#box25{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box25:target{
+    display: block;
+}
+
+#box25:target ~ .box25{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box25{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box25 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////MADAGASCAR////////////////////////*/
+
+#box26{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box26:target{
+    display: block;
+}
+
+#box26:target ~ .box26{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box26{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box26 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SIERRA LONEU////////////////////////*/
+
+#box27{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box27:target{
+    display: block;
+}
+
+#box27:target ~ .box27{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box27{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box27 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////NIGERIA////////////////////////*/
+
+#box28{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box28:target{
+    display: block;
+}
+
+#box28:target ~ .box28{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box28{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box28 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SURINAME////////////////////////*/
+
+#box29{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box29:target{
+    display: block;
+}
+
+#box29:target ~ .box29{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box29{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box29 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////GUINE-BISSAU//////////////////////*/
+
+#box30{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box30:target{
+    display: block;
+}
+
+#box30:target ~ .box30{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box30{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box30 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SAO THOME////////////////////////*/
+
+#box31{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box31:target{
+    display: block;
+}
+
+#box31:target ~ .box31{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box31{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box31 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SOUTH SUDAN////////////////////////*/
+
+#box32{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box32:target{
+    display: block;
+}
+
+#box32:target ~ .box32{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box32{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box32 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////CONGO////////////////////////*/
+
+#box33{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box33:target{
+    display: block;
+}
+
+#box33:target ~ .box33{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box33{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box33 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////SWAZILAND////////////////////////*/
+
+#box34{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box34:target{
+    display: block;
+}
+
+#box34:target ~ .box34{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box34{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box34 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////CENTRAL AFRICAN///////////////////*/
+
+#box35{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box35:target{
+    display: block;
+}
+
+#box35:target ~ .box35{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box35{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box35 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////GUATEMALA////////////////////////*/
+
+#box36{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box36:target{
+    display: block;
+}
+
+#box36:target ~ .box36{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box36{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box36 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ////////////////////////LESOTO//////////////////////////*/
+
+#box37{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box37:target{
+    display: block;
+}
+
+#box37:target ~ .box37{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box37{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box37 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////TOGO////////////////////////*/
+
+#box38{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box38:target{
+    display: block;
+}
+
+#box38:target ~ .box38{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box38{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box38 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////AFEGANISTAO////////////////////////*/
+
+#box39{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box39:target{
+    display: block;
+}
+
+#box39:target ~ .box39{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box39{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box39 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////ZAMBIA////////////////////////*/
+
+#box40{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box40:target{
+    display: block;
+}
+
+#box40:target ~ .box40{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box40{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box40 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////LIBERIA////////////////////////*/
+
+#box41{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box41:target{
+    display: block;
+}
+
+#box41:target ~ .box41{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box41{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box41 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* ///////////////////////YEMEN////////////////////////*/
+
+#box42{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+
+#box42:target{
+    display: block;
+}
+
+#box42:target ~ .box42{
+    left: 60%;
+    transition: all .3s;
+    transition-delay: 0.2s;
+}
+
+.box42{
+    background-color: #C5C1C0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: -360px;
+    left: -500px;
+    top: 280px;
+    border: 2px black solid;
+}
+
+.box42 h2{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color:  #0A1612;
+    color: #F7CE3E;
+}
+
+/* /////////////////////////end/////////////////////////// */
+
+@media (max-width: 800px){
+    .box-menu1{
+        display: none;
+    }
+
+    .box-menu2{
+        display: none;
+    }
+
+    .menu-part{
+        display: inline;
+    }
+
+    .menu-part ul li a{
+        padding-left: 0px;
+        text-decoration: none;
+        list-style: none;
+
+        margin-left: 0px;
+
+        padding-right: 10px;
+        color: #C5C1C0;
+        font-size: 11px;
+    }
+
+    #sobre{
+        padding: 0;
+    }
+
+    .box-image img{
+        margin-right: 0;
+    }
+
+    .menu-part a{
+        padding-top: 46px;
+        padding-bottom: 38px;
+        
+    }
+    
+    .menu-part  a:hover{
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .barra-lateral{
+        display: none;
+    }
+}
+
+@media (max-width: 1600px){
+    #hamburger img{
+        display: none;
+    }
+    
+    .box-menu1{
+        display: none;
+    }
+
+    .box-menu2{
+        display: none;
+    }
+
+    .menu-part ul{
+        display: inline;
+    }
+
+    .menu-part ul li a{
+        padding-left: 0px;
+        text-decoration: none;
+        list-style: none;
+
+        margin-left: 0px;
+
+        padding-right: 10px;
+        color: #C5C1C0;
+        font-size: 11px;
+    }
+
+    #sobre{
+        padding: 0;
+    }
+
+    .box-image img{
+        margin-right: 0;
+    }
+
+    .menu-part a{
+        padding-top: 46px;
+        padding-bottom: 38px;
+        
+    }
+    
+    .menu-part  a:hover{
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .barra-lateral{
+        display: none;
+    }
+
+    .flex-box{
+        display: none;
+    }
+
+    
+}
+
+
+
+/* /////////////////////////////////////////////MOBILE/////////////////////////////////// */
+@media (max-width: 800px){
+
+    .menu-superior{
+        width: 100%;
+        height: 40px;
+    }
+
+    .box-image img{
+
+        position: absolute;
+        width: 50px;
+    
+        top: -5px;
+        margin-left: 78%;
+    }
+
+    .box-menu2{
+        display: none;
+    }
+
+    .menu-part{
+        display: none;
+    }
+
+    /* ////////////////////////// */
+
+    .menu-lateral-div{
+        display: inline;
+    }
+    
+    #check{
+        display: none;
+    }
+
+    #esc{
+        display: none;
+        top: -10px;
+        left: -10px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    #esc img{
+        width: 30px;
+    }
+    
+    #hamburger{
+        top: 5px;
+        left: 5px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        
+    }
+    
+    #hamburger img{
+        width: 30px;
+        display: inline;
+    }
+    
+    .barra{
+        background-color: #0A1612;
+        height: 100%;
+        width: 120px;
+        position: absolute;
+        transition: all .2s linear;
+        left: -300px;
+    }
+    
+    nav{
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        margin: 0;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: black;
+        padding-top: 0px;
+        
+    }
+    
+    .link{
+        background-color: #F7CE3E;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        text-align: center;
+        transition: all 0.2s linear;
+        color: black;
+        padding-left: 2px;
+    }
+    
+    #check:checked ~ .barra{
+        transform: translateX(300px);}
+
+    #check:checked ~ #hamburger{
+        display: none;
+    }
+
+    #check:checked ~ #esc{
+        display: inline;
+        position: absolute;
+        padding: 15px;
+    }
+
+    /* //////////////////////////////////// */
+
+    .flex-box{
+        display: none;
+    }
+
+    #vmap{
+        display: none;
+    }
+
+    .barra-lateral{
+        display: inline;
+        width: 100%;
+    }
+
+    .espacamento{
+        height: 10px;
+    }
+
+    /* /////////////////////////////////// */
+
+    .close{
+        color: #F7CE3E;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 35px;
+        position: absolute;
+        background-color: #000;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        top: 0;
+        right: 0;
+    }
+    
+    .close:hover{
+        opacity: 0.6;
+    }
+    
+    .bandeira{
+        width: 100%;
+        border-bottom: 2px black solid;
+    }
+    
+    .icon-info img{
+        width: 75px;
+        padding-left: 30px;
+        
+    }
+    
+    .icon-info p{
+        font-size: 14px;
+        padding-left: 30px;
+        text-justify: center;
+        font-weight: bold;
+    }
+    
+    .icon-info{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    
+    
+    .text-icon h4{
+        padding: 10px 15px 10px 15px;
+        background-color: #0A1612;
+        color: #F7CE3E;
+        font-size: 14px;
+    }
+    
+    .text-icon{
+        padding-right: 30px;
+        padding-top: 14px;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box24{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box24:target{
+        display: block;
+    }
+
+    #box24:target ~ .box24{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box24{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box24 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////Zimbabwe////////////////////////*/
+
+    #box25{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box25:target{
+        display: block;
+    }
+
+    #box25:target ~ .box25{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box25{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box25 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+    
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box26{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box26:target{
+        display: block;
+    }
+
+    #box26:target ~ .box26{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box26{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box26 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box27{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box27:target{
+        display: block;
+    }
+
+    #box27:target ~ .box27{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box27{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box27 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box28{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box28:target{
+        display: block;
+    }
+
+    #box28:target ~ .box28{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box28{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box28 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box29{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box29:target{
+        display: block;
+    }
+
+    #box29:target ~ .box29{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box29{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box29 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box30{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box30:target{
+        display: block;
+    }
+
+    #box30:target ~ .box30{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box30{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box30 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box31{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box31:target{
+        display: block;
+    }
+
+    #box31:target ~ .box31{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box31{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box31 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box32{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box32:target{
+        display: block;
+    }
+
+    #box32:target ~ .box32{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box32{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box32 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box33{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box33:target{
+        display: block;
+    }
+
+    #box33:target ~ .box33{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box33{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box33 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box34{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box34:target{
+        display: block;
+    }
+
+    #box34:target ~ .box34{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box34{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box34 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box35{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box35:target{
+        display: block;
+    }
+
+    #box35:target ~ .box35{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box35{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box35 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box36{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box36:target{
+        display: block;
+    }
+
+    #box36:target ~ .box36{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box36{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box36 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box37{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box37:target{
+        display: block;
+    }
+
+    #box37:target ~ .box37{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box37{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box37 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box38{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box38:target{
+        display: block;
+    }
+
+    #box38:target ~ .box38{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box38{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box38 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box39{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box39:target{
+        display: block;
+    }
+
+    #box39:target ~ .box39{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box39{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box39 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box40{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box40:target{
+        display: block;
+    }
+
+    #box40:target ~ .box40{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box40{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box40 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box41{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box41:target{
+        display: block;
+    }
+
+    #box41:target ~ .box41{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box41{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box41 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box42{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box42:target{
+        display: block;
+    }
+
+    #box42:target ~ .box42{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box42{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box42 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box24{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box24:target{
+        display: block;
+    }
+
+    #box24:target ~ .box24{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box24{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box24 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+    /* ///////////////////////SIRIA////////////////////////*/
+
+    #box11{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+
+    #box11:target{
+        display: block;
+    }
+
+    #box11:target ~ .box11{
+        left: 400px;
+        transition: all .3s;
+        transition-delay: 0.2s;
+    }
+
+    .box11{
+        background-color: #C5C1C0;
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        margin-left: -360px;
+        left: -500px;
+        top: 100px;
+        border: 2px black solid;
+    }
+
+    .box11 h2{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        background-color:  #0A1612;
+        color: #F7CE3E;
+    }
+
+
+}
